@@ -15,6 +15,6 @@ public class HelloController {
 
     @RequestMapping(value = "hello1",method = RequestMethod.GET)
     public String hello1(){
-        return "hello_1";
+        return "hello_2";
     }
 }
